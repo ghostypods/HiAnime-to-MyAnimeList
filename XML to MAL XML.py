@@ -67,6 +67,9 @@ def select_folder():
         global current_xml
         current_xml = ET.parse(file_path)
 
+    else:
+        label.config(text=f"File not found")
+
 
 def use_xml_data():
     global current_xml
@@ -84,13 +87,34 @@ def use_xml_data():
         create_xml(root)
 
 
-
 window = Tk()
 window.title("XML to MAL XML")
 window.geometry("600x400")
 
 title_label = Label(window, text="XML to MAL XML Converter!", font=('Helvetica', 30, 'normal'))
 title_label.pack(pady=10)
+
+credit_label = Label(window, text="by ghostypods on Githuhb", font=('Helvetica', 15, 'normal'))
+credit_label.pack(pady=(0, 10))
+
+note_text = Label(window,
+                  text="Note: This app has only been tested with hianime.to, so this may not work for other websites",
+                  background='red', foreground='white')
+note_text.pack()
+
+description = Label(window,
+                    text="Convert your exported hianime anime list XML file into a MyAnimeList compatible XML file!")
+description.pack()
+
+steps = Label(
+    window,
+    text="Steps:\n"
+    "1. Download anime list export from hianime.to\n"
+    "2. Import the file below\n"
+    "3. Save your new MAL XML wherever you want on your computer!",
+    justify="left"
+)
+steps.pack(padx=(55,0), pady=(0, 10), anchor='w')
 
 # Button to open the folder selection dialog
 select_file_button = Button(window, text="Select Folder", command=select_folder)
