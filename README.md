@@ -10,7 +10,7 @@
 <ol>
   <li><h4>Download your hianime XML file with 'Group by folder' toggeled on</h4></li>
   <li><p>Go to <a href="https://github.com/ghostypods/animelist-xml-to-mal-xml/releases">release</a> page and downlaod the latest version</p></li>
-  <li><p>Upload the XML file you exported from hianime.to</p></li>
+  <li><p>Upload the XML file you exported from hianimez.to</p></li>
   <li><p>Save your new MAL compatible XML file on your computer</p></li>
   <li><p>Import your MAL XML file into <a href="https://myanimelist.net/import.php">MyAnimeList</a></p></li>
 </ol>
