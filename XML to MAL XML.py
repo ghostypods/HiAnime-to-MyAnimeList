@@ -98,7 +98,7 @@ credit_label = Label(window, text="by ghostypods on Githuhb", font=('Helvetica',
 credit_label.pack(pady=(0, 10))
 
 note_text = Label(window,
-                  text="Note: This app has only been tested with hianime.to, so this may not work for other websites",
+                  text="Note: This app has only been tested with hianimez.to, so this may not work for other websites",
                   background='red', foreground='white')
 note_text.pack()
 
@@ -109,19 +109,20 @@ description.pack()
 steps = Label(
     window,
     text="Steps:\n"
-    "1. Download anime list export from hianime.to\n"
+    "1. Download your hianime.to XML file with 'Group by folder' toggeled on\n"
     "2. Import the file below\n"
-    "3. Save your new MAL XML wherever you want on your computer!",
+    "3. Save your new MAL XML wherever you want on your computer\n"
+    "4. Import your MAL XML file into MyAnimeList",
     justify="left"
 )
 steps.pack(padx=(55,0), pady=(0, 10), anchor='w')
 
 # Button to open the folder selection dialog
-select_file_button = Button(window, text="Select Folder", command=select_folder)
+select_file_button = Button(window, text="Select File", command=select_folder)
 select_file_button.pack(pady=10)
 
 # Label to display the selected folder path
-label = Label(window, text="No folder selected")
+label = Label(window, text="No file selected")
 label.pack(pady=10)
 
 convert_button = Button(window, text="Convert to MAL XML", command=use_xml_data)
