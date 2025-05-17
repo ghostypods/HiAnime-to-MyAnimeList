@@ -4,6 +4,9 @@
 .idea/
 .vscode
 
+# -----I added this-----
+icon.ico
+
 ### Also any macOS specific files
 .DS_Store
 .AppleDouble

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d893ccf0-8df9-4c1f-98c0-337d7945ca45" name="Changes" comment="Edit labels">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d893ccf0-8df9-4c1f-98c0-337d7945ca45" name="Changes" comment="Update exe and readme">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/XML to MAL XML.exe" beforeDir="false" afterPath="$PROJECT_DIR$/XML to MAL XML.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747516898587</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update exe and readme">
+      <option name="closed" value="true" />
+      <created>1747518673390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747518673390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,6 +130,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Add Labels and Executable" />
     <MESSAGE value="Edit labels" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit labels" />
+    <MESSAGE value="Update exe and readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update exe and readme" />
   </component>
 </project>

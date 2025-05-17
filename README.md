@@ -1,5 +1,5 @@
 <img src="https://hianime.to/images/logo.png?v=0.1">
-<p>When exporting your new list of anime from hianime.to, the file isn't compatible with MyAnimeList (MAL). This app creates a MAL compatible XML file using the data from the hianime XML file.</p>
+<p>When exporting your new list of anime from hianimez.to, the file isn't compatible with MyAnimeList (MAL). This app creates a MAL compatible XML file using the data from the hianime XML file.</p>
 
 # ⚠️ IMPORTANT NOTE 
 <h4>This app has only been tested for the export file form hianimez.to</h4>
