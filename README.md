@@ -2,7 +2,7 @@
 <p>When exporting your new list of anime from hianimez.to, the file isn't compatible with MyAnimeList (MAL). This app creates a MAL compatible XML file using the data from the hianime XML file.</p>
 
 # ⚠️ IMPORTANT NOTE 
-<h4>This app has only been tested for the export file form hianimez.to</h4>
+<h4>This app has only been tested on Windows and for the export file form hianimez.to</h4>
 
 
 
